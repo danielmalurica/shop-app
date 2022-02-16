@@ -17,6 +17,7 @@ function ProductsNavigator() {
                 />
                 <Stack.Screen name='ProductDetails'
                     component={ProductDetailScreen}
+                    options={{ headerTitleAlign: 'center' }}
                 />
             </Stack.Navigator>
         </NavigationContainer>
